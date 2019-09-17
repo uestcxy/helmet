@@ -7,7 +7,7 @@
         <packaging>war</packaging>
       </options>
     </properties>
-    <root id="archive" name="ROOT-dev-20190910020013.war">
+    <root id="archive" name="ROOT-dev-20190917061107.war">
       <element id="artifact" artifact-name="hmserver:war exploded" />
     </root>
   </artifact>
