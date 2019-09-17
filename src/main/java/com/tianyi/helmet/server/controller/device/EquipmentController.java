@@ -615,4 +615,23 @@ public class EquipmentController {
         return ResponseVo.success(list);
     }
 
+    @RequestMapping(value = "test3", method = RequestMethod.POST)
+    @ResponseBody
+    public ResponseVo test3() {
+        List<Map<String, String>> list = new ArrayList<>();
+        Map<String, String> map = new HashMap<>();
+        map.put("id", "001");
+        map.put("resId", "001001");
+        map.put("coluName", "Model");
+        map.put("jdbcType", "varchar");
+        map.put("jdbcLength", "50");
+        map.put("name", "机型");
+        map.put("description", "出厂型号");
+        map.put("type", "dic");
+        map.put("dicRes", "002");
+        map.put("rule", "这里是规则");
+        list.add(map);
+        return ResponseVo.success(list);
+    }
+
 }
